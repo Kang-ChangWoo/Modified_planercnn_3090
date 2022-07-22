@@ -46,7 +46,7 @@ def parse_args():
                         default=1000, type=int)
     parser.add_argument('--numTestingImages', dest='numTestingImages',
                         help='the number of images to test/predict',
-                        default=100, type=int)
+                        default=654, type=int)
     parser.add_argument('--testingIndex', dest='testingIndex',
                         help='the index of images to test',
                         default=-1, type=int)
